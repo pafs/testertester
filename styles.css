@@ -1,0 +1,76 @@
+input, button, #container, textarea{
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    }
+
+h1, h3, button{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+textarea:focus, input:focus, button:focus{
+    outline: none;
+}
+
+#sum-num-2{
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    padding: 5px 10px;
+}
+#container{
+    padding: 15px;
+    box-shadow: 0 10px 10px 10px #888888;
+    margin-top: 100px;
+}
+
+#sum-result, #mult-result{
+    cursor: default;
+}
+
+.alert{
+    background-color: rgb(250, 145, 145);
+}
+
+#invisible{
+    background-color: lightgray;
+    color: lightgray;
+}
+
+#footer {
+    position: absolute; 
+    bottom: 15px;
+    left: 20px;
+}
+
+#strange-button{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

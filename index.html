@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SUPER CALC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <span id="invisible">This is invisible text - report it!</span>
+    <div id="container">
+        <h1>Super Calc</h1>
+        <div id="sums">
+            <h3>This for makin sums</h3>
+            <input type="text" id="sum-num-1" autocomplete="off">
+            <span>+</span>
+            <input type="text" id="sum-num-2" autocomplete="off">
+            <button id="sum-submit">=</button>
+            <input type="text" id="sum-result" readonly>
+            <button id="clear-sum">clear</button>
+        </div>
+        <div id="mults">
+            <h3>This for makin multiplies</h3>
+            <input type="number" id="mult-num-1" autocomplete="off">
+            <span>X</span>
+            <input type="number" id="mult-num-2" autocomplete="off">
+            <button id="mult-submit">=</button>
+            <input type="text" id="mult-result" readonly>
+            <button id="clear-mult">clear</button>
+        </div>
+    </div>
+        <div id="footer">
+            <button id="strange-button">Credentials</button>
+        </div>
+    <script type="text/javascript" src="index.js"></script>
+    <!-- This is a hidden bug :) -->
+</body>
+</html>
